@@ -7,6 +7,7 @@ public class SophisticatedCatContext extends Cat {
 
     public SophisticatedCatContext(String name) {
         super(name);
+        setState(new EatingState());
     }
 
     public void doSomething() {
